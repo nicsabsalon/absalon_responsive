@@ -1,0 +1,428 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 58px) {
+  .container {
+      max-width: 58px;
+  }
+  #btdemo{
+    order: 1;
+  }
+  #btsignup{
+    order: 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  #btdemo{
+    order: 1;
+  }
+  #btsignup{
+    order: 0;
+  }
+}
+  
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  #btdemo{
+    order: 0;
+  }
+  #btsignup{
+    order: 1;
+  }
+}
+
+li{
+  list-style: none;
+  padding: .2rem 0 .2rem 0;
+}
+@media (min-width: 65px) and (max-width: 640px){
+  #profile
+  {
+     display: none;
+  }
+
+  #button_flex, #features_flex, #inboxes_flex, #integrations_flex, #trial_flex
+  {
+      display: flex;
+      flex-direction: column; 
+      margin-top: 2.5rem;
+  }
+
+  #button_flex #button_flex_item_2
+  {
+      flex-direction: column;
+  }
+
+  #fotter_flex, #under_footer_flex
+  {
+      padding-top: 5rem;
+      padding-bottom: 0rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      color: white;
+  }
+
+  #under_footer_flex
+  {
+      padding-bottom: 5rem !important;
+  }
+
+  #tiral_flex
+  {
+      margin-top: 2.5rem;
+  }
+
+  #integrations_flex
+  {
+      margin-top: 10rem;
+  }
+
+  #inboxes_list_flex
+  {
+      display: flex;
+  }
+
+  #inboxes_flex
+  {
+      margin-top: 1rem !important;
+  }
+
+  #sign_up_button_flex, #demo_button_flex, #get_started_button_flex, #learn_more_button_flex
+  {
+      margin: 0rem 1rem;
+  }
+
+  #get_started_button_flex, #learn_more_button_flex
+  {
+      margin: 0rem 2rem;
+  }
+
+  #learn_more_button, #demo_button
+  {
+      border: 1px solid rgba(128, 128, 128, 0.466);
+      background-color: white;
+  }
+
+  #learn_more_button, #get_started_button
+  {
+      padding: 0.5rem !important;
+  }
+
+  #get_started_button_flex
+  {
+      margin-bottom: 1rem !important;
+  }
+
+  #sign_up_button, #demo_button
+  {
+      padding: 0.8rem;
+  }
+
+  #demo_button
+  {
+      background-image: url("../img/Dropdown.png");
+      background-repeat: no-repeat;
+      background-position: 40% 50%;
+  }
+
+  #integration_button
+  {
+      padding: 0.5rem;
+      width: 11rem;
+  }
+
+  Button
+  {
+      width: 100%;
+      border-radius: 0.5rem;
+  }
+
+  #image_flex
+  {
+      margin-bottom: 5rem !important;
+  }
+
+  #container_image_flex
+  {
+      margin-top: 2rem !important;
+  }
+
+  #content_image_flex
+  {
+      margin-top: 2rem !important;
+  }
+
+  #feature_image_flex
+  {
+      margin-top: 2rem !important;
+  }
+
+  #image_flex, #container_image_flex, #content_image_flex, #feature_image_flex
+  {
+      max-width: fit-content;
+      width: 100%;
+      margin: auto;
+      display: block;
+  }
+
+  #inboxes_flex_list
+  {
+      list-style-image: url("../img/Check icon.png");
+  }
+}
+
+@media (min-width: 0px) and (max-width: 75px) 
+{
+  #profile
+  {
+      display: none;
+  }
+  
+  #demo_button
+  {
+      background-image: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 324px) 
+{
+  #profile
+  {
+      display: none;
+  }
+  
+  #demo_button
+  {
+      background-position: 35% 50%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 240px) 
+{
+  #profile
+  {
+      display: none;
+  }
+  
+  #demo_button
+  {
+      background-position: 25% 50%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 160px) 
+{
+  #profile
+  {
+      display: none;
+  }
+  
+  #demo_button
+  {
+      background-image: none;
+  }
+}
+
+@media (min-width: 640px) 
+{
+  #mobile
+  {
+      display: none;    
+  }
+
+  #desktop_section
+  {
+      display: block;
+  }
+
+  #feature_flex
+  {
+      text-align: center;
+  }
+  
+  #button_flex
+  {
+      display: flex;
+  }
+
+  #button_flex img
+  {
+      width: 50%;
+      height: 50%;
+  }
+  
+  #button_flex_item_2
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #flex_item_1
+  {
+      order: 1;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #sign_up_button, #demo_button, #get_started_button, #learn_more_button
+  {
+      padding: 0.8rem;
+      border-radius: 0.3rem;
+  }
+
+  #sign_up_button, #get_started_button
+  {
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+
+  #demo_button, #learn_more_button
+  {
+      border: 1px solid rgba(128, 128, 128, 0.466);
+      background-color: white;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      background-image: url("../img/play-circle.png");
+      background-repeat: no-repeat;
+      background-position: 10% 50%;
+  }
+
+  #learn_more_button
+  {
+      background: none !important;
+      border: 1px solid rgba(128, 128, 128, 0.466);
+  }
+
+  #title_text
+  {
+      font-size: 2.5rem;
+  }
+
+  #title_text_content
+  {
+      margin-left: 14rem;
+      margin-right: 14rem;
+      margin-bottom: 2rem;
+  }
+
+  #image_flex, #container_image_flex, #content_image_flex, #feature_image_flex
+  {
+      max-width: fit-content;
+      width: 100%;
+      margin: auto;
+      display: block;
+      margin-top: 2rem;
+  }
+
+  #features_list_flex img
+  {
+      max-width: fit-content;
+      width: 100%;
+      margin: auto;
+      display: block;
+      margin-top: 2rem;
+  }
+
+  #image_mobile
+  {
+      display: none;
+  }
+
+  #image_desktop
+  {
+      display: block;
+  }
+
+  #features_flex
+  {
+      flex-direction: column;
+      margin-top: 10rem;
+  }
+
+  #features_company_image_flex img, #features_avatar_image_flex img, #content_image_flex img
+  {
+      max-width: fit-content;
+      width: 100%;
+      margin: auto;
+      display: block;
+      margin-top: 2rem;
+  }
+
+  #features_flex_content_1
+  {
+      margin-left: 5rem;
+      margin-right: 5rem;
+  }
+
+
+  #features_flex_content_2
+  {
+      margin-left: 5rem;
+      margin-right: 5rem;
+  }
+
+  #features_list_flex
+  {
+      margin-left: 3rem;
+      margin-right: 3rem;
+  }
+
+  #features_list_flex img
+  {
+      margin-top: 2rem;
+  }
+
+  .features_list_flex
+  {
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+
+  #faq_list_flex
+  {
+      margin: 0px 15rem;
+  }
+}
+
+
+/* own css custom function */
+.mt-20
+{
+  margin-top: 10rem;
+}
+
+.mx-50
+{
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+/* no margin left or right */
+.no-mx
+{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.text-3xl
+{
+  font-size: 3rem;
+}
+
+.mt-12
+{
+  margin-top: 8rem;
+}
+
+.my-20
+{
+  margin-top: 10rem;
+  margin-bottom: 10rem !important;
+}
